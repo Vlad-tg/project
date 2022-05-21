@@ -1,7 +1,7 @@
 <div style="font-family: 'Times New Roman', Times, serif; font-size: 110%">
 <div>
 <div>
-<h2>Requirements <hr>
+<h2>Requirements 
 </h2>
 <ul>
 <li>Python (3.6, 3.7, 3.8, 3.9, 3.10)</li>
@@ -12,7 +12,7 @@
 <p>We highly recommend and only officially support the latest patch release of each Python and Django series.</p>
 </div>
 <div>
-<h2>Installation <hr>
+<h2>Installation 
 </h2>
 
 <p>Install using <code>pip</code>...</p>
@@ -20,7 +20,7 @@
 <pre>pip install djangorestframework django psycopg2-binary</pre>
 </div>
 <div>
-<h2>Setting <hr>
+<h2>Setting 
 </h2>
 <p>You need open<code>project/.env.dev</code> and connect your database. <br>
 <b>Example:</b>
@@ -40,7 +40,7 @@ How to set up Docker will be written in Docker app.
 </p>
 </div>
 <div>
-<h2>Create Docker container and project launch<hr>
+<h2>Create Docker container and project launch
 </h2>
 <p>Go to cmd.exe or bash/zsh and write path to the project. <br>
 <b>Example: </b><code>cd /mnt/c/all/project</code>. <br>
