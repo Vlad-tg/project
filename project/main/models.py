@@ -35,9 +35,9 @@ class Tiers(models.Model):
 
     name = models.CharField(verbose_name='Name', max_length=255)
     slug = models.SlugField(unique=True)
-    size_thumbnail_image = models.PositiveIntegerField(verbose_name='Px', default=0,
+    size_thumbnail_image = models.PositiveIntegerField(verbose_name='Size thumbnail image', default=0,
                                                        validators=[MinValueValidator(0), MaxValueValidator(1920)])
-    size_thumbnail_image_two = models.PositiveIntegerField(verbose_name='Px two', default=0,
+    size_thumbnail_image_two = models.PositiveIntegerField(verbose_name='Size thumbnail image two', default=0,
                                                            validators=[MinValueValidator(0), MaxValueValidator(1920)])
     url_original_image = models.CharField(verbose_name='Original image (url)', max_length=255,
                                           choices=CHOICES_STATUS, default=STATUS_FALSE)
